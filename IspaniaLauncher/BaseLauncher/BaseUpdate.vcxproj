@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>IspaniaLauncher</ProjectName>
+    <ProjectGuid>{A38C46CB-40FC-466C-BF31-FA1DAF862C4A}</ProjectGuid>
+    <RootNamespace>BaseUpdate</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.30323.82</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\_bin\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>..\..\..\_build\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>launcher</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../../SDK;../../../SDK/WTL;../../../Libraries/RunePackerLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>shlwapi.lib;ws2_32.lib;winmm.lib;RunePackerLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(TargetPath)</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\_bin\RunePackerLib\Release;..\..\..\SDK\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <SwapRunFromCD>true</SwapRunFromCD>
+      <SwapRunFromNET>true</SwapRunFromNET>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command />
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseCore.cpp" />
+    <ClCompile Include="BaseUpdate.cpp" />
+    <ClCompile Include="base_Thread.cpp" />
+    <ClCompile Include="base_Thread_impl.cpp" />
+    <ClCompile Include="BlockingSocket.cpp" />
+    <ClCompile Include="Cupload.cpp" />
+    <ClCompile Include="DownloadThread_File.cpp" />
+    <ClCompile Include="FileVersion.cpp" />
+    <ClCompile Include="FTPClient.cpp" />
+    <ClCompile Include="FTPDataTypes.cpp" />
+    <ClCompile Include="FTPFileState.cpp" />
+    <ClCompile Include="FTPListParse.cpp" />
+    <ClCompile Include="ProgressBarDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="VersionData.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseCore.h" />
+    <ClInclude Include="BaseUpdate.h" />
+    <ClInclude Include="base_Thread.h" />
+    <ClInclude Include="base_Thread_impl.h" />
+    <ClInclude Include="BlockingSocket.h" />
+    <ClInclude Include="cmdlineargs.h" />
+    <ClInclude Include="Cupload.h" />
+    <ClInclude Include="CuploadDlg.h" />
+    <ClInclude Include="Definements.h" />
+    <ClInclude Include="DownloadThread_File.h" />
+    <ClInclude Include="FileVersion.h" />
+    <ClInclude Include="FTPClient.h" />
+    <ClInclude Include="FTPDataTypes.h" />
+    <ClInclude Include="FTPFileState.h" />
+    <ClInclude Include="FTPListParse.h" />
+    <ClInclude Include="ProgressBarDlg.h" />
+    <ClInclude Include="rc_smart_ptr.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="VersionData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="BaseUpdate.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BaseUpdate.rc">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

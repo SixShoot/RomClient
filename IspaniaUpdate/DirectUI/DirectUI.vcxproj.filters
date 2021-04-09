@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Squirrel">
+      <UniqueIdentifier>{9ad55a93-353d-4757-bd2d-b2ce88b02135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{b7912d53-2442-4381-971b-b22cc5449ebc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\DirectUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\ming_ui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\RegionCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\SQButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\SQFrameWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\SQPageWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\SQWindowHost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UIActiveX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UIBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UIBlue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UIButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UICombo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UIContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UIDecoration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UIEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UILabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UIlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UIList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UIManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UIPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UIProgressBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UISliderbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UITab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UITool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UIWebActiveX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UIWindowHost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sqplus\SqPlus.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sqplus\SquirrelBindingsUtils.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sqplus\SquirrelBindingsUtilsWin32.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sqplus\SquirrelObject.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sqplus\SquirrelVM.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sqstdlib\sq_stdaux.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sqstdlib\sq_stdblob.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sqstdlib\sq_stdio.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sqstdlib\sq_stdmath.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sqstdlib\sq_stdrex.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sqstdlib\sq_stdstream.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sqstdlib\sq_stdstring.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sqstdlib\sq_stdsystem.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\squirrel\sqapi.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\squirrel\sqbaselib.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\squirrel\sqclass.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\squirrel\sqcompiler.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\squirrel\sqdebug.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\squirrel\sqfuncstate.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\squirrel\sqlexer.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\squirrel\sqmem.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\squirrel\sqobject.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\squirrel\sqstate.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\squirrel\sqtable.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\squirrel\sqvm.cpp">
+      <Filter>Squirrel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_boboSort.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_Character.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_Debug.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_Format.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_Formattable.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_Hashtable.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_internalError.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_LinkedList.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_Math.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_MemoryPool.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_MTRefCount.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_Mutex.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_OutOfMemoryException.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_pcheader.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_Profile.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_RandomX.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_RefCount.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_Semaphore.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_String.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_StringTable.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_System.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_Thread.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_Thread_impl.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_Throwable.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_TimeStamp.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_Trie.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\base_UTFConverter.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\ming_ui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\SQButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\SQFrameWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\SQPageWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\SQWindowHost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UIActiveX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UIAnim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UIBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UIBlue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UIButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UICombo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UIContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UIDecoration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UIEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UILabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UIlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UIList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UIManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UIPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UIProgressBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UISliderbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UITab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UITool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UIWebActiveX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UIWindowHost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UI_API.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\UI_TypeDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\WebUIController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\DirectUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\Internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\RegionCreator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sqlib\sq_stdaux.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sqlib\sq_stdblob.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sqlib\sq_stdio.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sqlib\sq_stdmath.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sqlib\sq_stdstring.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sqlib\sq_stdsystem.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sqplus\sqplus.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sqplus\SqPlusConst.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sqplus\SqPlusOverload.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sqplus\sqplusWin32.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sqplus\SquirrelBindingsUtils.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sqplus\SquirrelBindingsUtilsWin32.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sqplus\SquirrelObject.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sqplus\SquirrelVM.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\squirrel\squirrel.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sqstdlib\sq_stdblobimpl.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sqstdlib\sq_stdstream.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\squirrel\sqarray.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\squirrel\sqclass.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\squirrel\sqclosure.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\squirrel\sqcompiler.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\squirrel\sqfuncproto.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\squirrel\sqfuncstate.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\squirrel\sqlexer.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\squirrel\sqobject.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\squirrel\sqopcodes.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\squirrel\sqpcheader.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\squirrel\sqstate.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\squirrel\sqstring.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\squirrel\sqtable.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\squirrel\squserdata.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\squirrel\squtils.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\squirrel\sqvm.h">
+      <Filter>Squirrel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\base_pcheader.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\base_Semaphore.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\base_Stringtable.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\base_Thread_impl.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_api.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_Array.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_assert.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_base.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_BaseTypes.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_boboSort.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_Character.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_Debug.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_Exception.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_FixedLinkedList.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_Float.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_Format.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_FormatException.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_Formattable.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_handle.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_handlemagr.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_Hashtable.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_IConverter.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_IFactory.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_Integer.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_internalError.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_IteratorBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_LinkedList.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_lowerBound.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_Math.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_MemoryPool.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_MTRefCount.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_Mutex.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_OutOfMemoryException.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_Profile.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_RandomX.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_RefCount.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_singleton.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_SmartPtr.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_String.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_System.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_TAutolists.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_Thread.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_Throwable.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_TimeStamp.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_Trie.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_TSet.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\base_UTFConverter.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\base\algorithm\base_introsort.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Checks_Sajal_Nails.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icons16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DirectUI.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\base\base_Array.inl">
+      <Filter>Base</Filter>
+    </None>
+    <None Include="include\base\base_Hashtable.inl">
+      <Filter>Base</Filter>
+    </None>
+    <None Include="include\base\base_TSet.inl">
+      <Filter>Base</Filter>
+    </None>
+  </ItemGroup>
+</Project>

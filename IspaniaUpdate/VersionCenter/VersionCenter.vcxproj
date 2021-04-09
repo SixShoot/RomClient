@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7B8E5DA6-0406-4C95-A27B-4E74FD55A740}</ProjectGuid>
+    <RootNamespace>VersionCenter</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>ClientUpdate</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.30323.82</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\_bin\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>..\..\..\_build\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <ReferencePath>$(VC_ReferencesPath_x86);</ReferencePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>..\DirectUI\include;..\DirectUI\include\sqplus;..\libtorrentSimpleClient;..\..\..\SDK;..\..\..\SDK\WTL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ws2_32.lib;dxguid.lib;d3d9_32.lib;Normaliz.lib;Ws2_32.lib;Wldap32.lib;Crypt32.lib;advapi32.lib;libcurl_a32.lib;DirectUI.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(TargetPath)</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\SDK\lib;..\..\..\_bin\DirectUI\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <PostBuildEvent>
+      <Command />
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CDownLoad.cpp" />
+    <ClCompile Include="Curlpp\buffer.cpp" />
+    <ClCompile Include="Curlpp\curl.cpp" />
+    <ClCompile Include="Curlpp\curlpp.cpp" />
+    <ClCompile Include="Curlpp\easy.cpp" />
+    <ClCompile Include="Curlpp\exception.cpp" />
+    <ClCompile Include="Curlpp\file_trait.cpp" />
+    <ClCompile Include="Curlpp\form.cpp" />
+    <ClCompile Include="Curlpp\ftp_easy.cpp" />
+    <ClCompile Include="Curlpp\http_easy.cpp" />
+    <ClCompile Include="Curlpp\memory_trait.cpp" />
+    <ClCompile Include="Curlpp\slist.cpp" />
+    <ClCompile Include="Curlpp\stdafx.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Curlpp\storage.cpp" />
+    <ClCompile Include="Curlpp\storage_trait.cpp" />
+    <ClCompile Include="Curlpp\stream_trait.cpp" />
+    <ClCompile Include="DXUTenum.cpp" />
+    <ClCompile Include="FileVersion.cpp" />
+    <ClCompile Include="inifile2.cpp" />
+    <ClCompile Include="md5\MD5Checksum.cpp" />
+    <ClCompile Include="ReadUpdateIni.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="VC_App.cpp" />
+    <ClCompile Include="VC_Script.cpp" />
+    <ClCompile Include="VersionData.cpp" />
+    <ClCompile Include="ZipResource.cpp" />
+    <ClCompile Include="zip\unzip.cpp" />
+    <ClCompile Include="zip\zip.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CDownLoad.h" />
+    <ClInclude Include="cmdlineargs.h" />
+    <ClInclude Include="Curlpp\buffer.hpp" />
+    <ClInclude Include="Curlpp\curl.hpp" />
+    <ClInclude Include="Curlpp\curlpp.hpp" />
+    <ClInclude Include="Curlpp\easy.hpp" />
+    <ClInclude Include="Curlpp\exception.hpp" />
+    <ClInclude Include="Curlpp\file_trait.hpp" />
+    <ClInclude Include="Curlpp\form.hpp" />
+    <ClInclude Include="Curlpp\ftp_easy.hpp" />
+    <ClInclude Include="Curlpp\http_easy.hpp" />
+    <ClInclude Include="Curlpp\memory_trait.hpp" />
+    <ClInclude Include="Curlpp\slist.hpp" />
+    <ClInclude Include="Curlpp\stdafx.h" />
+    <ClInclude Include="Curlpp\storage.hpp" />
+    <ClInclude Include="Curlpp\storage_trait.hpp" />
+    <ClInclude Include="Curlpp\stream_trait.hpp" />
+    <ClInclude Include="Curlpp\types.hpp" />
+    <ClInclude Include="DXUTenum.h" />
+    <ClInclude Include="FileVersion.h" />
+    <ClInclude Include="inifile2.h" />
+    <ClInclude Include="md5\MD5Checksum.h" />
+    <ClInclude Include="md5\MD5ChecksumDefines.h" />
+    <ClInclude Include="ReadUpdateIni.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SimpleIni.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="VC_Script.h" />
+    <ClInclude Include="VersionData.h" />
+    <ClInclude Include="ZipResource.h" />
+    <ClInclude Include="zip\unzip.h" />
+    <ClInclude Include="zip\zip.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Checks_Sajal_Nails.bmp" />
+    <Image Include="res\icon.ico" />
+    <Image Include="res\icons16.bmp" />
+    <Image Include="res\small_logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VersionCenter.rc">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DirectUI\DirectUI.vcxproj">
+      <Project>{b90a9086-5b10-4754-9763-cc82c5cf7400}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Imagelib\Imagelib.vcxproj">
+      <Project>{d7685339-707f-41f8-85f6-81fcab3fdcc2}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

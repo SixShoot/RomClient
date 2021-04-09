@@ -1,0 +1,2197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MainProc">
+      <UniqueIdentifier>{541afbd2-db1a-4e69-be7b-feaec2fc0523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member">
+      <UniqueIdentifier>{89fd3030-04be-4dc6-abb1-83da571fefeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\net_attack">
+      <UniqueIdentifier>{2a25a1e4-04d7-4bef-9b81-b6948763ff0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\net_cliconnect">
+      <UniqueIdentifier>{b6ccc3a3-f5eb-43c9-be9f-a6e616e34002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\net_eq">
+      <UniqueIdentifier>{2ee937e1-b0b8-43d3-9e9d-53a4c35b25c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\net_login">
+      <UniqueIdentifier>{47caaea3-ba8a-472d-ba6c-3f13154b1a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\net_magic">
+      <UniqueIdentifier>{758aaf94-22d4-4e49-9d47-38cb6669c465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\net_move">
+      <UniqueIdentifier>{2740ec91-c2f3-4f30-9b0e-972cdcdf5780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\net_rolevalue">
+      <UniqueIdentifier>{a651df72-366d-49fa-8437-e9359b075cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_Script">
+      <UniqueIdentifier>{2d394cb9-0ed1-4d93-b791-0a0d3286c34c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_Shop">
+      <UniqueIdentifier>{6bbc0646-10b6-4670-bb74-dfc60bbbc9aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\net_talk">
+      <UniqueIdentifier>{c983fbaa-7935-486d-b509-bc8fb93194ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\net_trade">
+      <UniqueIdentifier>{b753ff4d-46df-43f4-9459-b0b0b4f86940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_Party">
+      <UniqueIdentifier>{fd8a8a78-c2d6-4337-9584-e6ee94353a87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_Channel">
+      <UniqueIdentifier>{ce01b5a5-8996-4a2f-88c6-694d6e406499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\NetWaker">
+      <UniqueIdentifier>{db27e19b-c6e0-424c-a691-4b0871a23728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\NetWaker\ServerList_Cli">
+      <UniqueIdentifier>{dd36a496-cc14-43ad-b6a4-f1a0263fc611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_FriendList">
+      <UniqueIdentifier>{c4cd0677-97c0-4863-9aaa-42d0498fa5d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_Mail">
+      <UniqueIdentifier>{bc622c2c-44e1-4deb-8525-9124f6463a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_AC">
+      <UniqueIdentifier>{115651c8-0e60-4f8f-9fa1-3f0f850b9845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_Recipe">
+      <UniqueIdentifier>{7c20ea86-7004-4423-9533-9d8dfd213495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_Guild">
+      <UniqueIdentifier>{ead1df77-0e97-432d-99dd-a42e26987bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_Gather">
+      <UniqueIdentifier>{ae1b8140-e67b-43e5-91ed-9ea9b633943d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_Billboard">
+      <UniqueIdentifier>{3bf6f1dc-c6b0-426e-ac2b-e7479e676270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_PK">
+      <UniqueIdentifier>{3090729f-fe68-4a30-8c88-7d77ab5a45af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_Other">
+      <UniqueIdentifier>{3c6208c3-da1d-4b3a-ae11-75ac15158116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_Lottery">
+      <UniqueIdentifier>{206a3ff2-c7e0-486d-a995-f87f150a1b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_Houses">
+      <UniqueIdentifier>{ca7d4873-dacf-4e07-95f5-50a3fb203061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\net_item">
+      <UniqueIdentifier>{f852a484-d852-4944-a05a-5d64fd8b33fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_DepartmentStore">
+      <UniqueIdentifier>{586e593e-2b9c-49b6-98fa-5b15b494ad7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_BattleGround">
+      <UniqueIdentifier>{1e739e1c-0d3e-4062-a262-0100eae5191c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_ImportBoard">
+      <UniqueIdentifier>{1cedb68b-02ef-4904-9d68-22d912ec73a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_Teleport">
+      <UniqueIdentifier>{931a37db-420f-4583-8a87-4425a65ec9c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_Treasure">
+      <UniqueIdentifier>{9cb2bea4-7eac-4734-8f67-ed7b17decb1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_GuildHouses">
+      <UniqueIdentifier>{14e86658-a767-4abf-8da5-7052f3396838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_CultivatePet">
+      <UniqueIdentifier>{6c28151a-aeb4-4a52-9aec-67ec06618524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_GuildHousesWar">
+      <UniqueIdentifier>{54283a23-8bfd-4fdc-affd-37f33586e05b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\NetFestival">
+      <UniqueIdentifier>{6c6e24a4-1f06-4028-bc4d-0d8b0662b8b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_BG_GuildWar">
+      <UniqueIdentifier>{46d379e5-b918-49b6-8d5f-83afd9ec30b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_Instance">
+      <UniqueIdentifier>{fc638f21-c171-44e7-ac9b-5c4230ffb6fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWaker_Member\Net_PublicEncounter">
+      <UniqueIdentifier>{1a1234b7-1f5a-477f-92cf-5c93b63daa46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{a4c08770-399d-46f1-88f5-844062abddcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Cini">
+      <UniqueIdentifier>{45eb9f2a-09ae-4033-b89f-db3053a85071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Debuglog">
+      <UniqueIdentifier>{b393f79f-7d41-4003-a38e-ffaba89d10a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\getfontnamefromfile">
+      <UniqueIdentifier>{b878db4a-9e2e-4f56-9895-4deafa4e25fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Common">
+      <UniqueIdentifier>{f148300a-0cd0-4567-bc9a-007075f01a81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\verinfo">
+      <UniqueIdentifier>{9a9b24c4-b8d3-46e3-8b7b-e737a8c7b513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Mstring">
+      <UniqueIdentifier>{af98a8a8-bd67-4100-8e55-035be17ad764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\cpuusage">
+      <UniqueIdentifier>{67ce4a66-d6b1-4c23-bd7b-c26f8bbf7928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Tracert">
+      <UniqueIdentifier>{01186121-fb0c-4f93-b4f2-ff47abda3e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui">
+      <UniqueIdentifier>{188cf60d-ab7b-4cad-8347-57fd0ee077d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui\core">
+      <UniqueIdentifier>{df1981f3-d3d0-47d6-ad6f-965c2d225664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui\core\lua">
+      <UniqueIdentifier>{28b4a54a-89fd-4e0e-88dd-8733af637b70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui\xml">
+      <UniqueIdentifier>{06b6c868-8b73-4399-b7b4-1d10ad96c001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ErrorList">
+      <UniqueIdentifier>{1c4bf589-096b-4213-94c6-994250587295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{9ec67ffb-570c-460a-9c06-7e35721d920e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Login">
+      <UniqueIdentifier>{ba557be6-6303-4b4f-b627-2c559cb4533f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Quest">
+      <UniqueIdentifier>{678ff831-551e-4517-96cb-230dea0fd59a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\WorldFrames">
+      <UniqueIdentifier>{c12fd6be-137c-43fc-bd03-e10e9574c17f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\WorldFrames\Header Files">
+      <UniqueIdentifier>{a1243756-6c16-48ea-8a74-ccdbff521768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\WorldFrames\Source Files">
+      <UniqueIdentifier>{39e4de94-4d4a-4a4b-9a0c-830e2d9b4cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Debug">
+      <UniqueIdentifier>{6364b442-d8e9-4762-bab6-c31f77c2f8d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Maintain">
+      <UniqueIdentifier>{a2e3ab4b-69b7-4745-bb89-be5b1a063943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Map">
+      <UniqueIdentifier>{02d2e354-4758-46b2-9b26-685898cf7d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\SkillBook">
+      <UniqueIdentifier>{4de39556-65ae-4550-b66f-1fb83cdea5ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\CraftFrame">
+      <UniqueIdentifier>{d04313c7-a599-4ebe-b6ae-c00f8a016032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\System">
+      <UniqueIdentifier>{2b71bb8a-fde7-4e11-9c5c-2c1595e55453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Billboard">
+      <UniqueIdentifier>{20b4f843-7518-4048-b1f3-7ae704053d58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Socal">
+      <UniqueIdentifier>{ec83aa65-ab7a-4165-9a8f-b043d75f7931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Teach">
+      <UniqueIdentifier>{fb674958-6918-4458-aa93-3b0514af51d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\CardBook">
+      <UniqueIdentifier>{b6baf6e9-ca54-4e6e-82a4-837e9ef1163f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Houses">
+      <UniqueIdentifier>{c6843926-1d5f-45a0-a3c2-cf47bd34f15d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\ObjectBloodBar">
+      <UniqueIdentifier>{89ec23f6-ccf7-4dea-8d88-e1089a93e7fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\ItemLink">
+      <UniqueIdentifier>{3547835f-5263-4f8e-a0b6-602981849c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\GuildHouses">
+      <UniqueIdentifier>{5edff644-732b-4d2d-8403-06521dd31e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\PartyBoard">
+      <UniqueIdentifier>{b620ac3d-d515-429e-b57b-d7d6485cad74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\FusionStoneTradeFrame">
+      <UniqueIdentifier>{0e9ad42e-a56a-4f7d-a5a8-96a3a53ba581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\GM">
+      <UniqueIdentifier>{3375664b-c6dd-44fc-8620-e040059c216c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite">
+      <UniqueIdentifier>{3eb76a70-a039-4538-8d22-d08c683cfe5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\myhttpfile">
+      <UniqueIdentifier>{40f1da6e-21a3-4a6d-a9fe-bb4b5c6efb81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Union">
+      <UniqueIdentifier>{786240cc-d7b4-45dd-91a0-4cb8befce1af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Union\NetWaker">
+      <UniqueIdentifier>{f4eafd25-7c0e-460d-8507-cd55e6daabb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Union\PG">
+      <UniqueIdentifier>{18a628df-60ee-4699-ba6b-a87fbfcc2628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Union\RoleData">
+      <UniqueIdentifier>{12ba1510-c4a5-4193-9a2c-671c0ce01e3d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mainproc\ACTActionEventsManager.cpp">
+      <Filter>MainProc</Filter>
+    </ClCompile>
+    <ClCompile Include="mainproc\GameMain.cpp">
+      <Filter>MainProc</Filter>
+    </ClCompile>
+    <ClCompile Include="mainproc\LauncherOpera.cpp">
+      <Filter>MainProc</Filter>
+    </ClCompile>
+    <ClCompile Include="mainproc\NetGlobal.cpp">
+      <Filter>MainProc</Filter>
+    </ClCompile>
+    <ClCompile Include="mainproc\ReadUpdateIni.cpp">
+      <Filter>MainProc</Filter>
+    </ClCompile>
+    <ClCompile Include="mainproc\RuneDev.cpp">
+      <Filter>MainProc</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_attack\NetCli_Attack.cpp">
+      <Filter>NetWaker_Member\net_attack</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_attack\NetCli_AttackChild.cpp">
+      <Filter>NetWaker_Member\net_attack</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_cliconnect\Net_GSrvConnect.cpp">
+      <Filter>NetWaker_Member\net_cliconnect</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_cliconnect\Net_GSrvConnectChild.cpp">
+      <Filter>NetWaker_Member\net_cliconnect</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_eq\NetCli_EQ.cpp">
+      <Filter>NetWaker_Member\net_eq</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_eq\NetCli_EQChild.cpp">
+      <Filter>NetWaker_Member\net_eq</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_login\NetCli_Login.cpp">
+      <Filter>NetWaker_Member\net_login</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_login\NetCli_Login_Child.cpp">
+      <Filter>NetWaker_Member\net_login</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_magic\NetCli_Magic.cpp">
+      <Filter>NetWaker_Member\net_magic</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_magic\NetCli_MagicChild.cpp">
+      <Filter>NetWaker_Member\net_magic</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_move\Net_Move.cpp">
+      <Filter>NetWaker_Member\net_move</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_move\NetCli_MoveChild.cpp">
+      <Filter>NetWaker_Member\net_move</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_rolevalue\NetCli_RoleValue.cpp">
+      <Filter>NetWaker_Member\net_rolevalue</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_rolevalue\NetCli_RoleValueChild.cpp">
+      <Filter>NetWaker_Member\net_rolevalue</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Script\NetCli_Script.cpp">
+      <Filter>NetWaker_Member\Net_Script</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Script\NetCli_Script_Child.cpp">
+      <Filter>NetWaker_Member\Net_Script</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Shop\NetCli_Shop.cpp">
+      <Filter>NetWaker_Member\Net_Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Shop\NetCli_ShopChild.cpp">
+      <Filter>NetWaker_Member\Net_Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_talk\NetCli_Talk.cpp">
+      <Filter>NetWaker_Member\net_talk</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_talk\NetCli_TalkChild.cpp">
+      <Filter>NetWaker_Member\net_talk</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_trade\NetCli_Trade.cpp">
+      <Filter>NetWaker_Member\net_trade</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_trade\NetCli_TradeChild.cpp">
+      <Filter>NetWaker_Member\net_trade</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_party\NetCli_Party.cpp">
+      <Filter>NetWaker_Member\Net_Party</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_party\NetCli_PartyChild.cpp">
+      <Filter>NetWaker_Member\Net_Party</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_channel\NetCli_Channel.cpp">
+      <Filter>NetWaker_Member\Net_Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_channel\NetCli_ChannelChild.cpp">
+      <Filter>NetWaker_Member\Net_Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWaker\CliNetWake.cpp">
+      <Filter>NetWaker_Member\NetWaker</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWaker\CliNetWakerClass.cpp">
+      <Filter>NetWaker_Member\NetWaker</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWaker\CliNetWakerProxyCallback.cpp">
+      <Filter>NetWaker_Member\NetWaker</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWaker\CliNetWakerSwitchCallback.cpp">
+      <Filter>NetWaker_Member\NetWaker</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWaker\ServerList_Cli\ServerListCliclass.cpp">
+      <Filter>NetWaker_Member\NetWaker\ServerList_Cli</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_FriendList\NetCli_FriendList.cpp">
+      <Filter>NetWaker_Member\Net_FriendList</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_FriendList\NetCli_FriendListChild.cpp">
+      <Filter>NetWaker_Member\Net_FriendList</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Mail\NetCli_Mail.cpp">
+      <Filter>NetWaker_Member\Net_Mail</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Mail\NetCli_MailChild.cpp">
+      <Filter>NetWaker_Member\Net_Mail</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_AC\NetCli_AC.cpp">
+      <Filter>NetWaker_Member\Net_AC</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_AC\NetCli_ACChild.cpp">
+      <Filter>NetWaker_Member\Net_AC</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Recipe\NetCli_Recipe.cpp">
+      <Filter>NetWaker_Member\Net_Recipe</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Recipe\NetCli_RecipeChild.cpp">
+      <Filter>NetWaker_Member\Net_Recipe</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Guild\NetCli_Guild.cpp">
+      <Filter>NetWaker_Member\Net_Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Guild\NetCli_GuildChild.cpp">
+      <Filter>NetWaker_Member\Net_Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Gather\NetCli_Gather.cpp">
+      <Filter>NetWaker_Member\Net_Gather</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Gather\NetCli_Gather_Child.cpp">
+      <Filter>NetWaker_Member\Net_Gather</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Billboard\NetCli_Billboard.cpp">
+      <Filter>NetWaker_Member\Net_Billboard</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Billboard\NetCli_BillboardChild.cpp">
+      <Filter>NetWaker_Member\Net_Billboard</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_PK\NetCli_PK.cpp">
+      <Filter>NetWaker_Member\Net_PK</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_PK\NetCli_PKChild.cpp">
+      <Filter>NetWaker_Member\Net_PK</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Other\NetCli_Other.cpp">
+      <Filter>NetWaker_Member\Net_Other</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Other\NetCli_OtherChild.cpp">
+      <Filter>NetWaker_Member\Net_Other</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Lottery\NetCli_Lottery.cpp">
+      <Filter>NetWaker_Member\Net_Lottery</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Lottery\NetCli_LotteryChild.cpp">
+      <Filter>NetWaker_Member\Net_Lottery</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Houses\NetCli_Houses.cpp">
+      <Filter>NetWaker_Member\Net_Houses</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Houses\NetCli_HousesChild.cpp">
+      <Filter>NetWaker_Member\Net_Houses</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_item\NetCli_Item.cpp">
+      <Filter>NetWaker_Member\net_item</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_item\NetCli_ItemChild.cpp">
+      <Filter>NetWaker_Member\net_item</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_DepartmentStore\NetCli_DepartmentStore.cpp">
+      <Filter>NetWaker_Member\Net_DepartmentStore</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_DepartmentStore\NetCli_DepartmentStoreChild.cpp">
+      <Filter>NetWaker_Member\Net_DepartmentStore</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_BattleGround\NetCli_BattleGround.cpp">
+      <Filter>NetWaker_Member\Net_BattleGround</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_BattleGround\NetCli_BattleGround_Child.cpp">
+      <Filter>NetWaker_Member\Net_BattleGround</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_ImportBoard\NetCli_ImportBoard.cpp">
+      <Filter>NetWaker_Member\Net_ImportBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_ImportBoard\NetCli_ImportBoardChild.cpp">
+      <Filter>NetWaker_Member\Net_ImportBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_teleport\NetCli_Teleport.cpp">
+      <Filter>NetWaker_Member\Net_Teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_teleport\NetCli_TeleportChild.cpp">
+      <Filter>NetWaker_Member\Net_Teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Treasure\NetCli_Treasure.cpp">
+      <Filter>NetWaker_Member\Net_Treasure</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Treasure\NetCli_TreasureChild.cpp">
+      <Filter>NetWaker_Member\Net_Treasure</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_GuildHouses\NetCli_GuildHouses.cpp">
+      <Filter>NetWaker_Member\Net_GuildHouses</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_GuildHouses\NetCli_GuildHousesChild.cpp">
+      <Filter>NetWaker_Member\Net_GuildHouses</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_CultivatePet\NetCli_CultivatePet.cpp">
+      <Filter>NetWaker_Member\Net_CultivatePet</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_CultivatePet\NetCli_CultivatePetChild.cpp">
+      <Filter>NetWaker_Member\Net_CultivatePet</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_GuildHousesWar\NetCli_GuildHousesWar.cpp">
+      <Filter>NetWaker_Member\Net_GuildHousesWar</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_GuildHousesWar\NetCli_GuildHousesWarChild.cpp">
+      <Filter>NetWaker_Member\Net_GuildHousesWar</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Festival\NetCli_Festival.cpp">
+      <Filter>NetWaker_Member\NetFestival</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_Festival\NetCli_FestivalChild.cpp">
+      <Filter>NetWaker_Member\NetFestival</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_BG_GuildWar\NetCli_BG_GuildWar.cpp">
+      <Filter>NetWaker_Member\Net_BG_GuildWar</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_BG_GuildWar\NetCli_BG_GuildWarChild.cpp">
+      <Filter>NetWaker_Member\Net_BG_GuildWar</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_Instance\Net_Instance.cpp">
+      <Filter>NetWaker_Member\Net_Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\net_Instance\NetCli_InstanceChild.cpp">
+      <Filter>NetWaker_Member\Net_Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_PublicEncounter\NetCli_PublicEncounter.cpp">
+      <Filter>NetWaker_Member\Net_PublicEncounter</Filter>
+    </ClCompile>
+    <ClCompile Include="netwaker_member\Net_PublicEncounter\NetCli_PublicEncounterChild.cpp">
+      <Filter>NetWaker_Member\Net_PublicEncounter</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\Cini\Ini.cpp">
+      <Filter>Tools\Cini</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\Cini\IniFile2.cpp">
+      <Filter>Tools\Cini</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\debuglog\errormessage.cpp">
+      <Filter>Tools\Debuglog</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\debuglog\logfile.cpp">
+      <Filter>Tools\Debuglog</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\getfontnamefromfile\getfontnamefromfile.cpp">
+      <Filter>Tools\getfontnamefromfile</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\Common\Com_Function.cpp">
+      <Filter>Tools\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\Common\Encrypt.cpp">
+      <Filter>Tools\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\verinfo\verinfo.cpp">
+      <Filter>Tools\verinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\MString\MString.cpp">
+      <Filter>Tools\Mstring</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\cpuusage\CpuUsage.cpp">
+      <Filter>Tools\cpuusage</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\Tracert\Tracert.cpp">
+      <Filter>Tools\Tracert</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\LuaTable.cpp">
+      <Filter>Ui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\ui.cpp">
+      <Filter>Ui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\uibase.cpp">
+      <Filter>Ui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\uibutton.cpp">
+      <Filter>Ui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\uicheckbutton.cpp">
+      <Filter>Ui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\uieditbox.cpp">
+      <Filter>Ui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\uifontstring.cpp">
+      <Filter>Ui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\uiframe.cpp">
+      <Filter>Ui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\uiinput.cpp">
+      <Filter>Ui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\uilayout.cpp">
+      <Filter>Ui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\uilistbox.cpp">
+      <Filter>Ui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\uimessageframe.cpp">
+      <Filter>Ui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\uimodel.cpp">
+      <Filter>Ui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\uiradiobutton.cpp">
+      <Filter>Ui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\uiscrollframe.cpp">
+      <Filter>Ui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\uislider.cpp">
+      <Filter>Ui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\uistatusbar.cpp">
+      <Filter>Ui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\uitexture.cpp">
+      <Filter>Ui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\uitooltip.cpp">
+      <Filter>Ui\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\lua\uiluabutton.cpp">
+      <Filter>Ui\core\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\lua\uiluacheckbutton.cpp">
+      <Filter>Ui\core\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\lua\uiluaeditbox.cpp">
+      <Filter>Ui\core\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\lua\uiluafontstring.cpp">
+      <Filter>Ui\core\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\lua\uiluaframe.cpp">
+      <Filter>Ui\core\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\lua\uilualayout.cpp">
+      <Filter>Ui\core\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\lua\uilualistbox.cpp">
+      <Filter>Ui\core\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\lua\uiluamessageframe.cpp">
+      <Filter>Ui\core\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\lua\uiluamodel.cpp">
+      <Filter>Ui\core\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\lua\uiluaradiobutton.cpp">
+      <Filter>Ui\core\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\lua\uiluascrollframe.cpp">
+      <Filter>Ui\core\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\lua\uiluaslider.cpp">
+      <Filter>Ui\core\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\lua\uiluastatusbar.cpp">
+      <Filter>Ui\core\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\lua\uiluatexture.cpp">
+      <Filter>Ui\core\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\core\lua\uiluatooltip.cpp">
+      <Filter>Ui\core\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\xml\xmlbase.cpp">
+      <Filter>Ui\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\xml\xmlbutton.cpp">
+      <Filter>Ui\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\xml\xmlcheckbutton.cpp">
+      <Filter>Ui\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\xml\xmleditbox.cpp">
+      <Filter>Ui\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\xml\xmlfontstring.cpp">
+      <Filter>Ui\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\xml\xmlframe.cpp">
+      <Filter>Ui\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\xml\xmllayout.cpp">
+      <Filter>Ui\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\xml\xmllistbox.cpp">
+      <Filter>Ui\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\xml\xmlmessageframe.cpp">
+      <Filter>Ui\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\xml\xmlmodel.cpp">
+      <Filter>Ui\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\xml\xmlradiobutton.cpp">
+      <Filter>Ui\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\xml\xmlscript.cpp">
+      <Filter>Ui\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\xml\xmlscrollframe.cpp">
+      <Filter>Ui\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\xml\xmlslider.cpp">
+      <Filter>Ui\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\xml\xmlstatusbar.cpp">
+      <Filter>Ui\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\xml\xmltexture.cpp">
+      <Filter>Ui\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\xml\xmlTooltip.cpp">
+      <Filter>Ui\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\xml\xmlui.cpp">
+      <Filter>Ui\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorList\errorlist.cpp">
+      <Filter>ErrorList</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\interface.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Login\AccountLogin.cpp">
+      <Filter>Interface\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Login\CharacterCreate.cpp">
+      <Filter>Interface\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Login\CharacterSelect.cpp">
+      <Filter>Interface\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Login\LoginParent.cpp">
+      <Filter>Interface\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Quest\QuestTrack.cpp">
+      <Filter>Interface\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Quest\QuestTrackNew.cpp">
+      <Filter>Interface\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\quest\UI_QuestBook.cpp">
+      <Filter>Interface\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\quest\UI_QuestDetail.cpp">
+      <Filter>Interface\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Quest\UI_QuestList.cpp">
+      <Filter>Interface\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\ScriptBorder\UI_ScriptBorder.cpp">
+      <Filter>Interface\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\AccountBagFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\ActionFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\AncillaryTitleFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\AuctionFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\BagFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\BankFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\BattleGroundAreneScoreFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\BattleGroundBloodStatusFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\BattleGroundOptionButtonFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\BattleGroundQueueFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\BattleGroundRoomListFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\BattleGroundScoreFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\BattleGroundStatusFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\BotCheckFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\BuffFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\BulletinBoard.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\CastingBarFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\CharacterFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\ChatEdit.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\ChatFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\ChatFrameChannelChangeFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\chatMsn.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\ClearAttribStoneFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\ClientCountDownBarFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\CombatMeter.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\CoverStringFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\DrawRuneFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\EmoteFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\ExchangeClassFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\GameControl.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\GameTooltip.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\GiveItemFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\GmNotificationFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\GuildFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\GuildWarScore.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\HorseRacingRankingFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\InspectFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\ItemClipboard.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\ItemUTIL.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\KeyBinding.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\LoadingFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\LoginBonusFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\LootFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\LotteryFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\MacroFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\MailFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\MerchantFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\NpcTrackFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\PartnerFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\PartyFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\PetFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\PhantomFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\PublicEncounterFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\RaidTargetFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\RuneExchange.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\ScrollCombatTextFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\SpeakFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\StoreFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\SuitSkillFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\TransportBook\TeleportBook.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\TradeFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\TutorialFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\RecipeStore\UI_RecipeStore.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\scoreboard\UI_scoreBoard.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\UI_SortScoreBoard.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\UnitFrame.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\WeekInstance.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\WorldFrames\WorldBattleGround.cpp">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Debug\DebugMessage.cpp">
+      <Filter>Interface\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Maintain\Maintain.cpp">
+      <Filter>Interface\Maintain</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Map\MapCommon.cpp">
+      <Filter>Interface\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Map\Minimap.cpp">
+      <Filter>Interface\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Map\WorldMap.cpp">
+      <Filter>Interface\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\SkillBook\UI_SkillBook.cpp">
+      <Filter>Interface\SkillBook</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\CraftFrame\UI_CraftFrame.cpp">
+      <Filter>Interface\CraftFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\System\SYS_AudioSettings.cpp">
+      <Filter>Interface\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\System\SYS_DisplaySettings.cpp">
+      <Filter>Interface\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Billboard\BillboardFrame.cpp">
+      <Filter>Interface\Billboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Socal\UI_Socal.cpp">
+      <Filter>Interface\Socal</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Teach\UI_TeachingFrame.cpp">
+      <Filter>Interface\Teach</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\CardBook\UI_CardBook.cpp">
+      <Filter>Interface\CardBook</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\CardBook\ui_PetBook.cpp">
+      <Filter>Interface\CardBook</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Houses\HousesFrame.cpp">
+      <Filter>Interface\Houses</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\ObjectBloodBar\ObjectBloodBar.cpp">
+      <Filter>Interface\ObjectBloodBar</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\ItemLink\ItemLink.cpp">
+      <Filter>Interface\ItemLink</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GuildHouses\GuildHousesFrame.cpp">
+      <Filter>Interface\GuildHouses</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GuildHouses\GuildHouseStatus.cpp">
+      <Filter>Interface\GuildHouses</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\PartyBoard\PartyBoardFrame.cpp">
+      <Filter>Interface\PartyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\FusionStoneTradeFrame\FusionStoneTradeFrame.cpp">
+      <Filter>Interface\FusionStoneTradeFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GM\GM_Config.cpp">
+      <Filter>Interface\GM</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\GM\GM_ObjEdit.cpp">
+      <Filter>Interface\GM</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite\basesprite.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite\effectsprite.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite\eventmanager.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite\rolesprite.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite\textsprite.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\myhttpfile\MyHttpFile.cpp">
+      <Filter>Tools\myhttpfile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Union\NetWaker\NetWakerDefine.cpp">
+      <Filter>Union\NetWaker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Union\RoleData\ObjectStructEx.cpp">
+      <Filter>Union\RoleData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Union\RoleData\RD_Check.cxx">
+      <Filter>Union\RoleData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Union\RoleData\RD_Event.cxx">
+      <Filter>Union\RoleData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Union\RoleData\RD_ItemProc.cxx">
+      <Filter>Union\RoleData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Union\RoleData\RD_NetFunction.cxx">
+      <Filter>Union\RoleData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Union\RoleData\RD_Normal.cxx">
+      <Filter>Union\RoleData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Union\RoleData\RD_Save.cxx">
+      <Filter>Union\RoleData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Union\RoleData\RD_Script.cxx">
+      <Filter>Union\RoleData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Union\RoleData\RD_Search.cxx">
+      <Filter>Union\RoleData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Union\RoleData\RD_Setting.cxx">
+      <Filter>Union\RoleData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Union\RoleData\RD_STFunc.cxx">
+      <Filter>Union\RoleData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Union\RoleData\RD_Utility.cxx">
+      <Filter>Union\RoleData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Union\RoleData\RD_ValueCal.cxx">
+      <Filter>Union\RoleData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Union\RoleData\RoleAttr.cpp">
+      <Filter>Union\RoleData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Union\RoleData\RoleData.cpp">
+      <Filter>Union\RoleData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Union\RoleData\RoleDataEx.cpp">
+      <Filter>Union\RoleData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Union\RoleData\CampStatute.cpp">
+      <Filter>Union\RoleData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Union\RoleData\ObjectDataClass.cpp">
+      <Filter>Union\RoleData</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mainproc\ACTActionEventsManager.h">
+      <Filter>MainProc</Filter>
+    </ClInclude>
+    <ClInclude Include="mainproc\GameMain.h">
+      <Filter>MainProc</Filter>
+    </ClInclude>
+    <ClInclude Include="mainproc\GameMainDef.h">
+      <Filter>MainProc</Filter>
+    </ClInclude>
+    <ClInclude Include="mainproc\LauncherOpera.h">
+      <Filter>MainProc</Filter>
+    </ClInclude>
+    <ClInclude Include="mainproc\NetGlobal.h">
+      <Filter>MainProc</Filter>
+    </ClInclude>
+    <ClInclude Include="mainproc\ReadUpdateIni.h">
+      <Filter>MainProc</Filter>
+    </ClInclude>
+    <ClInclude Include="mainproc\RuneDev.h">
+      <Filter>MainProc</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\NetWakerClientInc.h">
+      <Filter>NetWaker_Member</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_attack\NetCli_Attack.h">
+      <Filter>NetWaker_Member\net_attack</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_attack\NetCli_AttackChild.h">
+      <Filter>NetWaker_Member\net_attack</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_attack\PG_Attack.h">
+      <Filter>NetWaker_Member\net_attack</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_cliconnect\Net_GSrvConnect.h">
+      <Filter>NetWaker_Member\net_cliconnect</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_cliconnect\Net_GSrvConnectChild.h">
+      <Filter>NetWaker_Member\net_cliconnect</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_cliconnect\PG_CliConnect.h">
+      <Filter>NetWaker_Member\net_cliconnect</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_eq\NetCli_EQ.h">
+      <Filter>NetWaker_Member\net_eq</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_eq\NetCli_EQChild.h">
+      <Filter>NetWaker_Member\net_eq</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_eq\PG_EQ.h">
+      <Filter>NetWaker_Member\net_eq</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_login\NetCli_Login.h">
+      <Filter>NetWaker_Member\net_login</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_login\NetCli_Login_Child.h">
+      <Filter>NetWaker_Member\net_login</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_login\PG_Login.h">
+      <Filter>NetWaker_Member\net_login</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_magic\NetCli_Magic.h">
+      <Filter>NetWaker_Member\net_magic</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_magic\NetCli_MagicChild.h">
+      <Filter>NetWaker_Member\net_magic</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_magic\PG_Magic.h">
+      <Filter>NetWaker_Member\net_magic</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_move\Net_Move.h">
+      <Filter>NetWaker_Member\net_move</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_move\NetCli_MoveChild.h">
+      <Filter>NetWaker_Member\net_move</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_move\PG_Move.h">
+      <Filter>NetWaker_Member\net_move</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_rolevalue\NetCli_RoleValue.h">
+      <Filter>NetWaker_Member\net_rolevalue</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_rolevalue\NetCli_RoleValueChild.h">
+      <Filter>NetWaker_Member\net_rolevalue</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_rolevalue\PG_RoleValue.h">
+      <Filter>NetWaker_Member\net_rolevalue</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Script\NetCli_Script.h">
+      <Filter>NetWaker_Member\Net_Script</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Script\NetCli_Script_Child.h">
+      <Filter>NetWaker_Member\Net_Script</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Script\PG_Script.h">
+      <Filter>NetWaker_Member\Net_Script</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Shop\NetCli_Shop.h">
+      <Filter>NetWaker_Member\Net_Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Shop\NetCli_ShopChild.h">
+      <Filter>NetWaker_Member\Net_Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Shop\PG_Shop.h">
+      <Filter>NetWaker_Member\Net_Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_talk\NetCli_Talk.h">
+      <Filter>NetWaker_Member\net_talk</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_talk\NetCli_TalkChild.h">
+      <Filter>NetWaker_Member\net_talk</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_talk\PG_Talk.h">
+      <Filter>NetWaker_Member\net_talk</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_trade\NetCli_Trade.h">
+      <Filter>NetWaker_Member\net_trade</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_trade\NetCli_TradeChild.h">
+      <Filter>NetWaker_Member\net_trade</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_trade\PG_Trade.h">
+      <Filter>NetWaker_Member\net_trade</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_party\NetCli_Party.h">
+      <Filter>NetWaker_Member\Net_Party</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_party\NetCli_PartyChild.h">
+      <Filter>NetWaker_Member\Net_Party</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_party\PG_Party.h">
+      <Filter>NetWaker_Member\Net_Party</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_channel\NetCli_Channel.h">
+      <Filter>NetWaker_Member\Net_Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_channel\NetCli_ChannelChild.h">
+      <Filter>NetWaker_Member\Net_Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_channel\PG_ChannelBase.h">
+      <Filter>NetWaker_Member\Net_Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWaker\CliNetWaker.h">
+      <Filter>NetWaker_Member\NetWaker</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWaker\CliNetWakerClass.h">
+      <Filter>NetWaker_Member\NetWaker</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWaker\ServerList_Cli\ServerListCliclass.h">
+      <Filter>NetWaker_Member\NetWaker\ServerList_Cli</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWaker\ServerList_Cli\ServerListPackage.h">
+      <Filter>NetWaker_Member\NetWaker\ServerList_Cli</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWaker\ServerList_Cli\ServerListPackageDef.h">
+      <Filter>NetWaker_Member\NetWaker\ServerList_Cli</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_FriendList\NetCli_FriendList.h">
+      <Filter>NetWaker_Member\Net_FriendList</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_FriendList\NetCli_FriendListChild.h">
+      <Filter>NetWaker_Member\Net_FriendList</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_FriendList\PG_FriendList.h">
+      <Filter>NetWaker_Member\Net_FriendList</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Mail\NetCli_Mail.h">
+      <Filter>NetWaker_Member\Net_Mail</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Mail\NetCli_MailChild.h">
+      <Filter>NetWaker_Member\Net_Mail</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Mail\PG_Mail.h">
+      <Filter>NetWaker_Member\Net_Mail</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_AC\NetCli_AC.h">
+      <Filter>NetWaker_Member\Net_AC</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_AC\NetCli_ACChild.h">
+      <Filter>NetWaker_Member\Net_AC</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_AC\PG_AC.h">
+      <Filter>NetWaker_Member\Net_AC</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Recipe\NetCli_Recipe.h">
+      <Filter>NetWaker_Member\Net_Recipe</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Recipe\NetCli_RecipeChild.h">
+      <Filter>NetWaker_Member\Net_Recipe</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Recipe\PG_Recipe.h">
+      <Filter>NetWaker_Member\Net_Recipe</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Guild\NetCli_Guild.h">
+      <Filter>NetWaker_Member\Net_Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Guild\NetCli_GuildChild.h">
+      <Filter>NetWaker_Member\Net_Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Guild\PG_Guild.h">
+      <Filter>NetWaker_Member\Net_Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Gather\NetCli_Gather.h">
+      <Filter>NetWaker_Member\Net_Gather</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Gather\NetCli_Gather_Child.h">
+      <Filter>NetWaker_Member\Net_Gather</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Gather\PG_Gather.h">
+      <Filter>NetWaker_Member\Net_Gather</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Billboard\NetCli_Billboard.h">
+      <Filter>NetWaker_Member\Net_Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Billboard\NetCli_BillboardChild.h">
+      <Filter>NetWaker_Member\Net_Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Billboard\PG_Billboard.h">
+      <Filter>NetWaker_Member\Net_Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_PK\NetCli_PK.h">
+      <Filter>NetWaker_Member\Net_PK</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_PK\NetCli_PKChild.h">
+      <Filter>NetWaker_Member\Net_PK</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_PK\PG_PK.h">
+      <Filter>NetWaker_Member\Net_PK</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Other\NetCli_Other.h">
+      <Filter>NetWaker_Member\Net_Other</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Other\NetCli_OtherChild.h">
+      <Filter>NetWaker_Member\Net_Other</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Other\PG_Other.h">
+      <Filter>NetWaker_Member\Net_Other</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Lottery\NetCli_Lottery.h">
+      <Filter>NetWaker_Member\Net_Lottery</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Lottery\NetCli_LotteryChild.h">
+      <Filter>NetWaker_Member\Net_Lottery</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Lottery\PG_Lottery.h">
+      <Filter>NetWaker_Member\Net_Lottery</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Houses\NetCli_Houses.h">
+      <Filter>NetWaker_Member\Net_Houses</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Houses\NetCli_HousesChild.h">
+      <Filter>NetWaker_Member\Net_Houses</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Houses\PG_Houses.h">
+      <Filter>NetWaker_Member\Net_Houses</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_item\NetCli_Item.h">
+      <Filter>NetWaker_Member\net_item</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_item\NetCli_ItemChild.h">
+      <Filter>NetWaker_Member\net_item</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_item\PG_Item.h">
+      <Filter>NetWaker_Member\net_item</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_DepartmentStore\NetCli_DepartmentStore.h">
+      <Filter>NetWaker_Member\Net_DepartmentStore</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_DepartmentStore\NetCli_DepartmentStoreChild.h">
+      <Filter>NetWaker_Member\Net_DepartmentStore</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_DepartmentStore\PG_DepartmentStore.h">
+      <Filter>NetWaker_Member\Net_DepartmentStore</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_BattleGround\NetCli_BattleGround.h">
+      <Filter>NetWaker_Member\Net_BattleGround</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_BattleGround\NetCli_BattleGround_Child.h">
+      <Filter>NetWaker_Member\Net_BattleGround</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_BattleGround\PG_BattleGround.h">
+      <Filter>NetWaker_Member\Net_BattleGround</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_ImportBoard\NetCli_ImportBoard.h">
+      <Filter>NetWaker_Member\Net_ImportBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_ImportBoard\NetCli_ImportBoardChild.h">
+      <Filter>NetWaker_Member\Net_ImportBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_ImportBoard\PG_ImportBoard.h">
+      <Filter>NetWaker_Member\Net_ImportBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_teleport\NetCli_Teleport.h">
+      <Filter>NetWaker_Member\Net_Teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_teleport\NetCli_TeleportChild.h">
+      <Filter>NetWaker_Member\Net_Teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_teleport\PG_Teleport.h">
+      <Filter>NetWaker_Member\Net_Teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Treasure\NetCli_Treasure.h">
+      <Filter>NetWaker_Member\Net_Treasure</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Treasure\NetCli_TreasureChild.h">
+      <Filter>NetWaker_Member\Net_Treasure</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Treasure\PG_Treasure.h">
+      <Filter>NetWaker_Member\Net_Treasure</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_GuildHouses\NetCli_GuildHouses.h">
+      <Filter>NetWaker_Member\Net_GuildHouses</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_GuildHouses\NetCli_GuildHousesChild.h">
+      <Filter>NetWaker_Member\Net_GuildHouses</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_GuildHouses\PG_GuildHouses.h">
+      <Filter>NetWaker_Member\Net_GuildHouses</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_CultivatePet\NetCli_CultivatePet.h">
+      <Filter>NetWaker_Member\Net_CultivatePet</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_CultivatePet\NetCli_CultivatePetChild.h">
+      <Filter>NetWaker_Member\Net_CultivatePet</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_CultivatePet\PG_CultivatePet.h">
+      <Filter>NetWaker_Member\Net_CultivatePet</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_GuildHousesWar\NetCli_GuildHousesWar.h">
+      <Filter>NetWaker_Member\Net_GuildHousesWar</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_GuildHousesWar\NetCli_GuildHousesWarChild.h">
+      <Filter>NetWaker_Member\Net_GuildHousesWar</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_GuildHousesWar\PG_GuildHousesWar.h">
+      <Filter>NetWaker_Member\Net_GuildHousesWar</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Festival\NetCli_Festival.h">
+      <Filter>NetWaker_Member\NetFestival</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Festival\NetCli_FestivalChild.h">
+      <Filter>NetWaker_Member\NetFestival</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_Festival\PG_Festival.h">
+      <Filter>NetWaker_Member\NetFestival</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_BG_GuildWar\NetCli_BG_GuildWar.h">
+      <Filter>NetWaker_Member\Net_BG_GuildWar</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_BG_GuildWar\NetCli_BG_GuildWarChild.h">
+      <Filter>NetWaker_Member\Net_BG_GuildWar</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_BG_GuildWar\PG_BG_GuildWar.h">
+      <Filter>NetWaker_Member\Net_BG_GuildWar</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_BG_GuildWar\PG_BG_GuildWarDef.h">
+      <Filter>NetWaker_Member\Net_BG_GuildWar</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_Instance\Net_Instance.h">
+      <Filter>NetWaker_Member\Net_Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_Instance\NetCli_InstanceChild.h">
+      <Filter>NetWaker_Member\Net_Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\net_Instance\PG_Instance.h">
+      <Filter>NetWaker_Member\Net_Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_PublicEncounter\NetCli_PublicEncounter.h">
+      <Filter>NetWaker_Member\Net_PublicEncounter</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_PublicEncounter\NetCli_PublicEncounterChild.h">
+      <Filter>NetWaker_Member\Net_PublicEncounter</Filter>
+    </ClInclude>
+    <ClInclude Include="netwaker_member\Net_PublicEncounter\PG_PublicEncounter.h">
+      <Filter>NetWaker_Member\Net_PublicEncounter</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\Cini\Ini.h">
+      <Filter>Tools\Cini</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\Cini\IniFile2.h">
+      <Filter>Tools\Cini</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\Cini\SimpleIni.h">
+      <Filter>Tools\Cini</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\debuglog\errormessage.h">
+      <Filter>Tools\Debuglog</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\debuglog\logfile.h">
+      <Filter>Tools\Debuglog</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\getfontnamefromfile\getfontnamefromfile.h">
+      <Filter>Tools\getfontnamefromfile</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\Common\Com_Function.h">
+      <Filter>Tools\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\Common\Encrypt.h">
+      <Filter>Tools\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\verinfo\verinfo.h">
+      <Filter>Tools\verinfo</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\MString\MString.h">
+      <Filter>Tools\Mstring</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\cpuusage\CpuUsage.h">
+      <Filter>Tools\cpuusage</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\Tracert\Tracert.h">
+      <Filter>Tools\Tracert</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\core\LuaTable.h">
+      <Filter>Ui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\core\ui.h">
+      <Filter>Ui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\core\uibase.h">
+      <Filter>Ui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\core\uibutton.h">
+      <Filter>Ui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\core\uicheckbutton.h">
+      <Filter>Ui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\core\uieditbox.h">
+      <Filter>Ui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\core\uifontstring.h">
+      <Filter>Ui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\core\uiframe.h">
+      <Filter>Ui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\core\uiinput.h">
+      <Filter>Ui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\core\uilayout.h">
+      <Filter>Ui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\core\uilistbox.h">
+      <Filter>Ui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\core\uimessageframe.h">
+      <Filter>Ui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\core\uimodel.h">
+      <Filter>Ui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\core\uiradiobutton.h">
+      <Filter>Ui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\core\uiscrollframe.h">
+      <Filter>Ui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\core\uislider.h">
+      <Filter>Ui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\core\uistatusbar.h">
+      <Filter>Ui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\core\uitexture.h">
+      <Filter>Ui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\core\uitooltip.h">
+      <Filter>Ui\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\xml\xmlbase.h">
+      <Filter>Ui\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\xml\xmlbutton.h">
+      <Filter>Ui\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\xml\xmlcheckbutton.h">
+      <Filter>Ui\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\xml\xmleditbox.h">
+      <Filter>Ui\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\xml\xmlfontstring.h">
+      <Filter>Ui\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\xml\xmlframe.h">
+      <Filter>Ui\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\xml\xmllayout.h">
+      <Filter>Ui\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\xml\xmllistbox.h">
+      <Filter>Ui\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\xml\xmlmessageframe.h">
+      <Filter>Ui\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\xml\xmlmodel.h">
+      <Filter>Ui\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\xml\xmlradiobutton.h">
+      <Filter>Ui\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\xml\xmlscript.h">
+      <Filter>Ui\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\xml\xmlscrollframe.h">
+      <Filter>Ui\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\xml\xmlslider.h">
+      <Filter>Ui\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\xml\xmlstatusbar.h">
+      <Filter>Ui\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\xml\xmltexture.h">
+      <Filter>Ui\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\xml\xmlTooltip.h">
+      <Filter>Ui\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\xml\xmlui.h">
+      <Filter>Ui\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorList\errorlist.h">
+      <Filter>ErrorList</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\DefRegisterEvent.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\interface.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Login\AccountLogin.h">
+      <Filter>Interface\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Login\CharacterCreate.h">
+      <Filter>Interface\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Login\CharacterSelect.h">
+      <Filter>Interface\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Login\LoginParent.h">
+      <Filter>Interface\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Quest\QuestTrack.h">
+      <Filter>Interface\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Quest\QuestTrackNew.h">
+      <Filter>Interface\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\quest\UI_QuestBook.h">
+      <Filter>Interface\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\quest\UI_QuestDetail.h">
+      <Filter>Interface\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Quest\UI_QuestList.h">
+      <Filter>Interface\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\ScriptBorder\UI_ScriptBorder.h">
+      <Filter>Interface\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\AccountBagFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\ActionFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\AncillaryTitleFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\AuctionFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\BagFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\BankFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\BattleGroundAreneScoreFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\BattleGroundBloodStatusFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\BattleGroundOptionButtonFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\BattleGroundQueueFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\BattleGroundRoomListFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\BattleGroundScoreFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\BattleGroundStatusFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\BotCheckFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\BuffFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\BulletinBoard.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\CastingBarFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\CharacterFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\ChatEdit.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\ChatFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\ChatFrameChannelChangeFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\chatMsn.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\ClearAttribStoneFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\ClientCountDownBarFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\CombatMeter.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\CoverStringFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\DrawRuneFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\EmoteFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\ExchangeClassFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\GameControl.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\GameTooltip.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\GiveItemFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\GmNotificationFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\GuildFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\GuildWarScore.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\HorseRacingRankingFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\InspectFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\ItemClipboard.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\ItemUTIL.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\KeyBinding.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\LoadingFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\LoginBonusFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\LootFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\LotteryFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\MacroFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\MailFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\MerchantFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\NpcTrackFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\PartnerFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\PartyFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\PetFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\PhantomFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\PublicEncounterFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\RaidTargetFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\RuneExchange.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\ScrollCombatTextFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\SpeakFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\StoreFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\SuitSkillFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\TradeFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\TutorialFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\UI_SortScoreBoard.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\UnitFrame.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\WeekInstance.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WorldFrames\WorldBattleGround.h">
+      <Filter>Interface\WorldFrames\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\TransportBook\TeleportBook.h">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\RecipeStore\UI_RecipeStore.h">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\scoreboard\UI_scoreBoard.h">
+      <Filter>Interface\WorldFrames\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Debug\DebugMessage.h">
+      <Filter>Interface\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Maintain\Maintain.h">
+      <Filter>Interface\Maintain</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Map\MapCommon.h">
+      <Filter>Interface\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Map\Minimap.h">
+      <Filter>Interface\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Map\WorldMap.h">
+      <Filter>Interface\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\SkillBook\UI_SkillBook.h">
+      <Filter>Interface\SkillBook</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\CraftFrame\UI_CraftFrame.h">
+      <Filter>Interface\CraftFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\System\SYS_AudioSettings.h">
+      <Filter>Interface\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\System\SYS_DisplaySettings.h">
+      <Filter>Interface\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Billboard\BillboardFrame.h">
+      <Filter>Interface\Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Socal\UI_Socal.h">
+      <Filter>Interface\Socal</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Teach\UI_TeachingFrame.h">
+      <Filter>Interface\Teach</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\CardBook\UI_CardBook.h">
+      <Filter>Interface\CardBook</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\CardBook\ui_PetBook.h">
+      <Filter>Interface\CardBook</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Houses\HousesFrame.h">
+      <Filter>Interface\Houses</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\ObjectBloodBar\ObjectBloodBar.h">
+      <Filter>Interface\ObjectBloodBar</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\ItemLink\ItemLink.h">
+      <Filter>Interface\ItemLink</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\GuildHouses\GuildHousesFrame.h">
+      <Filter>Interface\GuildHouses</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\GuildHouses\GuildHouseStatus.h">
+      <Filter>Interface\GuildHouses</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\PartyBoard\PartyBoardFrame.h">
+      <Filter>Interface\PartyBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\FusionStoneTradeFrame\FusionStoneTradeFrame.h">
+      <Filter>Interface\FusionStoneTradeFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\GM\GM_Config.h">
+      <Filter>Interface\GM</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\GM\GM_ObjEdit.h">
+      <Filter>Interface\GM</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite\basesprite.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite\effectsprite.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite\eventmanager.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite\rolesprite.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite\sprite.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite\textsprite.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="tools\myhttpfile\MyHttpFile.h">
+      <Filter>Tools\myhttpfile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\NetWaker\NetWakerDefine.h">
+      <Filter>Union\NetWaker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\NetWaker\NetWakerPackage.h">
+      <Filter>Union\NetWaker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\NetWaker\NetWakerPackageDef.h">
+      <Filter>Union\NetWaker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_AuroraAgent.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_BattleGround.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_BG_GuildWar.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_BG_GuildWarDef.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Billboard.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Billing.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Bot.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_BTI.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_ChannelBase.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_CliConnect.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_CultivatePet.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_DCBase.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_DepartmentStore.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_EQ.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Festival.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_FriendList.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Gather.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_GlobalInfo.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_GMTools.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_GMToolsStruct.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Guild.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_GuildHouses.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_GuildHousesWar.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Houses.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_ImportBoard.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Instance.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Item.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_LCBase.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_LCBase_DynamicBuffer.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_LCBase_PackageBufferInfo.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_LCBase_PackageDefine_Auto.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_LCBase_StaticBuffer.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Login.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Lottery.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Magic.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Mail.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Move.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Other.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_PartExchangeData.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_PartitionBase.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Party.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_PK.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_PublicEncounter.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Recipe.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_RoleValue.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Script.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_ServerList.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Shop.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_SmallGame.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Talk.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Teleport.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Trade.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Treasure.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_ZoneStatus.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\NetWakerPGEnum.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_AC.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\PG\PG_Attack.h">
+      <Filter>Union\PG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\RoleData\ObjectStructEx.h">
+      <Filter>Union\RoleData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\RoleData\RoleAttr.h">
+      <Filter>Union\RoleData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\RoleData\RoleBaseDef.h">
+      <Filter>Union\RoleData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\RoleData\RoleBaseInc.h">
+      <Filter>Union\RoleData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\RoleData\RoleData.h">
+      <Filter>Union\RoleData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\RoleData\RoleDataEx.h">
+      <Filter>Union\RoleData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\RoleData\CampStatute.h">
+      <Filter>Union\RoleData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\RoleData\ObjectDataClass.h">
+      <Filter>Union\RoleData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Union\RoleData\ObjectStruct.h">
+      <Filter>Union\RoleData</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ispania.exe.config" />
+    <None Include="..\..\Libraries\Union\RoleData\RD_Check.inl">
+      <Filter>Union\RoleData</Filter>
+    </None>
+    <None Include="..\..\Libraries\Union\RoleData\RD_Event.inl">
+      <Filter>Union\RoleData</Filter>
+    </None>
+    <None Include="..\..\Libraries\Union\RoleData\RD_ItemProc.inl">
+      <Filter>Union\RoleData</Filter>
+    </None>
+    <None Include="..\..\Libraries\Union\RoleData\RD_NetFunction.inl">
+      <Filter>Union\RoleData</Filter>
+    </None>
+    <None Include="..\..\Libraries\Union\RoleData\RD_Normal.inl">
+      <Filter>Union\RoleData</Filter>
+    </None>
+    <None Include="..\..\Libraries\Union\RoleData\RD_Save.inl">
+      <Filter>Union\RoleData</Filter>
+    </None>
+    <None Include="..\..\Libraries\Union\RoleData\RD_Script.inl">
+      <Filter>Union\RoleData</Filter>
+    </None>
+    <None Include="..\..\Libraries\Union\RoleData\RD_Search.inl">
+      <Filter>Union\RoleData</Filter>
+    </None>
+    <None Include="..\..\Libraries\Union\RoleData\RD_Setting.inl">
+      <Filter>Union\RoleData</Filter>
+    </None>
+    <None Include="..\..\Libraries\Union\RoleData\RD_STFunc.inl">
+      <Filter>Union\RoleData</Filter>
+    </None>
+    <None Include="..\..\Libraries\Union\RoleData\RD_Utility.inl">
+      <Filter>Union\RoleData</Filter>
+    </None>
+    <None Include="..\..\Libraries\Union\RoleData\RD_ValueCal.inl">
+      <Filter>Union\RoleData</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Ispania.rc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D7685339-707F-41F8-85F6-81FCAB3FDCC2}</ProjectGuid>
+    <RootNamespace>Imagelib</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.30323.82</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\_bin\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>..\..\..\_build\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\Libraries\Zlib;..\DirectUI\include;..\DirectUI\include\sqplus;..\DirectUI\include\sqlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(TargetPath)</OutputFile>
+      <AdditionalDependencies>Zlib.lib;DirectUI.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\_bin\DirectUI\Release;..\..\..\_bin\Zlib\x86\Release</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="cImage.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="cImageBMP.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="cImageGIF.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="cImageJPG.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="cImageMEMLoader.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="cImagePCX.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="cImagePNG.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="cImageTGA.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="jpeg\jcapimin.c" />
+    <ClCompile Include="jpeg\jcapistd.c" />
+    <ClCompile Include="jpeg\jccoefct.c" />
+    <ClCompile Include="jpeg\jccolor.c" />
+    <ClCompile Include="jpeg\jcdctmgr.c" />
+    <ClCompile Include="jpeg\jchuff.c" />
+    <ClCompile Include="jpeg\jcinit.c" />
+    <ClCompile Include="jpeg\jcmainct.c" />
+    <ClCompile Include="jpeg\jcmarker.c" />
+    <ClCompile Include="jpeg\jcmaster.c" />
+    <ClCompile Include="jpeg\jcomapi.c" />
+    <ClCompile Include="jpeg\jcparam.c" />
+    <ClCompile Include="jpeg\jcphuff.c" />
+    <ClCompile Include="jpeg\jcprepct.c" />
+    <ClCompile Include="jpeg\jcsample.c" />
+    <ClCompile Include="jpeg\jctrans.c" />
+    <ClCompile Include="jpeg\jdapimin.c" />
+    <ClCompile Include="jpeg\jdapistd.c" />
+    <ClCompile Include="jpeg\jdatadst.c" />
+    <ClCompile Include="jpeg\jdatasrc.c" />
+    <ClCompile Include="jpeg\jdcoefct.c" />
+    <ClCompile Include="jpeg\jdcolor.c" />
+    <ClCompile Include="jpeg\jddctmgr.c" />
+    <ClCompile Include="jpeg\jdhuff.c" />
+    <ClCompile Include="jpeg\jdinput.c" />
+    <ClCompile Include="jpeg\jdmainct.c" />
+    <ClCompile Include="jpeg\jdmarker.c" />
+    <ClCompile Include="jpeg\jdmaster.c" />
+    <ClCompile Include="jpeg\jdmerge.c" />
+    <ClCompile Include="jpeg\jdphuff.c" />
+    <ClCompile Include="jpeg\jdpostct.c" />
+    <ClCompile Include="jpeg\jdsample.c" />
+    <ClCompile Include="jpeg\jdtrans.c" />
+    <ClCompile Include="jpeg\jerror.c" />
+    <ClCompile Include="jpeg\jfdctflt.c" />
+    <ClCompile Include="jpeg\jfdctfst.c" />
+    <ClCompile Include="jpeg\jfdctint.c" />
+    <ClCompile Include="jpeg\jidctflt.c" />
+    <ClCompile Include="jpeg\jidctfst.c" />
+    <ClCompile Include="jpeg\jidctint.c" />
+    <ClCompile Include="jpeg\jidctred.c" />
+    <ClCompile Include="jpeg\jmemmgr.c" />
+    <ClCompile Include="jpeg\jmemnobs.c" />
+    <ClCompile Include="jpeg\jquant1.c" />
+    <ClCompile Include="jpeg\jquant2.c" />
+    <ClCompile Include="jpeg\jutils.c" />
+    <ClCompile Include="png\png.c" />
+    <ClCompile Include="png\pngerror.c" />
+    <ClCompile Include="png\pnggccrd.c" />
+    <ClCompile Include="png\pngget.c" />
+    <ClCompile Include="png\pngmem.c" />
+    <ClCompile Include="png\pngpread.c" />
+    <ClCompile Include="png\pngread.c" />
+    <ClCompile Include="png\pngrio.c" />
+    <ClCompile Include="png\pngrtran.c" />
+    <ClCompile Include="png\pngrutil.c" />
+    <ClCompile Include="png\pngset.c" />
+    <ClCompile Include="png\pngtrans.c" />
+    <ClCompile Include="png\pngvcrd.c" />
+    <ClCompile Include="png\pngwio.c" />
+    <ClCompile Include="png\pngwrite.c" />
+    <ClCompile Include="png\pngwtran.c" />
+    <ClCompile Include="png\pngwutil.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\ImageLib\cImage.h" />
+    <ClInclude Include="..\..\include\ImageLib\cImageBMP.h" />
+    <ClInclude Include="..\..\include\ImageLib\cImageGIF.h" />
+    <ClInclude Include="..\..\include\ImageLib\cImageJPG.h" />
+    <ClInclude Include="..\..\include\ImageLib\cImagePCX.h" />
+    <ClInclude Include="..\..\include\ImageLib\cImagePNG.h" />
+    <ClInclude Include="..\..\include\ImageLib\cImageTGA.h" />
+    <ClInclude Include="..\..\include\ImageLib\imagedef.h" />
+    <ClInclude Include="cImage.h" />
+    <ClInclude Include="cImageBMP.h" />
+    <ClInclude Include="cImageGIF.h" />
+    <ClInclude Include="cImageJPG.h" />
+    <ClInclude Include="cImagePCX.h" />
+    <ClInclude Include="cImagePNG.h" />
+    <ClInclude Include="cImageTGA.h" />
+    <ClInclude Include="imagedef.h" />
+    <ClInclude Include="jpeg\jchuff.h" />
+    <ClInclude Include="jpeg\jconfig.h" />
+    <ClInclude Include="jpeg\jdct.h" />
+    <ClInclude Include="jpeg\jdhuff.h" />
+    <ClInclude Include="jpeg\jerror.h" />
+    <ClInclude Include="jpeg\jinclude.h" />
+    <ClInclude Include="jpeg\jmemsys.h" />
+    <ClInclude Include="jpeg\jmorecfg.h" />
+    <ClInclude Include="jpeg\jpegint.h" />
+    <ClInclude Include="jpeg\jpeglib.h" />
+    <ClInclude Include="jpeg\jversion.h" />
+    <ClInclude Include="png\png.h" />
+    <ClInclude Include="png\pngasmrd.h" />
+    <ClInclude Include="png\pngconf.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

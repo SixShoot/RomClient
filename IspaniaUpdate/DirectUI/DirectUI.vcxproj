@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B90A9086-5B10-4754-9763-CC82C5CF7400}</ProjectGuid>
+    <RootNamespace>DirectUI</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.30323.82</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\_bin\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>..\..\..\_build\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>.\;..\;..\..\..\SDK;..\..\..\SDK\WTL;include;include\sqplus;include\sqlib;include\squirrel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_LIB;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(TargetPath)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\base\base_boboSort.cpp" />
+    <ClCompile Include="src\base\base_Character.cpp" />
+    <ClCompile Include="src\base\base_Debug.cpp" />
+    <ClCompile Include="src\base\base_Format.cpp" />
+    <ClCompile Include="src\base\base_Formattable.cpp" />
+    <ClCompile Include="src\base\base_Hashtable.cpp" />
+    <ClCompile Include="src\base\base_internalError.cpp" />
+    <ClCompile Include="src\base\base_LinkedList.cpp" />
+    <ClCompile Include="src\base\base_Math.cpp" />
+    <ClCompile Include="src\base\base_MemoryPool.cpp" />
+    <ClCompile Include="src\base\base_MTRefCount.cpp" />
+    <ClCompile Include="src\base\base_Mutex.cpp" />
+    <ClCompile Include="src\base\base_OutOfMemoryException.cpp" />
+    <ClCompile Include="src\base\base_pcheader.cpp" />
+    <ClCompile Include="src\base\base_Profile.cpp" />
+    <ClCompile Include="src\base\base_RandomX.cpp" />
+    <ClCompile Include="src\base\base_RefCount.cpp" />
+    <ClCompile Include="src\base\base_Semaphore.cpp" />
+    <ClCompile Include="src\base\base_String.cpp" />
+    <ClCompile Include="src\base\base_StringTable.cpp" />
+    <ClCompile Include="src\base\base_System.cpp" />
+    <ClCompile Include="src\base\base_Thread.cpp" />
+    <ClCompile Include="src\base\base_Thread_impl.cpp" />
+    <ClCompile Include="src\base\base_Throwable.cpp" />
+    <ClCompile Include="src\base\base_TimeStamp.cpp" />
+    <ClCompile Include="src\base\base_Trie.cpp" />
+    <ClCompile Include="src\base\base_UTFConverter.cpp" />
+    <ClCompile Include="src\sqplus\SqPlus.cpp" />
+    <ClCompile Include="src\sqplus\SquirrelBindingsUtils.cpp" />
+    <ClCompile Include="src\sqplus\SquirrelBindingsUtilsWin32.cpp" />
+    <ClCompile Include="src\sqplus\SquirrelObject.cpp" />
+    <ClCompile Include="src\sqplus\SquirrelVM.cpp" />
+    <ClCompile Include="src\sqstdlib\sq_stdaux.cpp" />
+    <ClCompile Include="src\sqstdlib\sq_stdblob.cpp" />
+    <ClCompile Include="src\sqstdlib\sq_stdio.cpp" />
+    <ClCompile Include="src\sqstdlib\sq_stdmath.cpp" />
+    <ClCompile Include="src\sqstdlib\sq_stdrex.cpp" />
+    <ClCompile Include="src\sqstdlib\sq_stdstream.cpp" />
+    <ClCompile Include="src\sqstdlib\sq_stdstring.cpp" />
+    <ClCompile Include="src\sqstdlib\sq_stdsystem.cpp" />
+    <ClCompile Include="src\squirrel\sqapi.cpp" />
+    <ClCompile Include="src\squirrel\sqbaselib.cpp" />
+    <ClCompile Include="src\squirrel\sqclass.cpp" />
+    <ClCompile Include="src\squirrel\sqcompiler.cpp" />
+    <ClCompile Include="src\squirrel\sqdebug.cpp" />
+    <ClCompile Include="src\squirrel\sqfuncstate.cpp" />
+    <ClCompile Include="src\squirrel\sqlexer.cpp" />
+    <ClCompile Include="src\squirrel\sqmem.cpp" />
+    <ClCompile Include="src\squirrel\sqobject.cpp" />
+    <ClCompile Include="src\squirrel\sqstate.cpp" />
+    <ClCompile Include="src\squirrel\sqtable.cpp" />
+    <ClCompile Include="src\squirrel\sqvm.cpp" />
+    <ClCompile Include="src\ui\DirectUI.cpp" />
+    <ClCompile Include="src\ui\ming_ui.cpp" />
+    <ClCompile Include="src\ui\RegionCreator.cpp" />
+    <ClCompile Include="src\ui\SQButton.cpp" />
+    <ClCompile Include="src\ui\SQFrameWnd.cpp" />
+    <ClCompile Include="src\ui\SQPageWnd.cpp" />
+    <ClCompile Include="src\ui\SQWindowHost.cpp" />
+    <ClCompile Include="src\ui\StdAfx.cpp" />
+    <ClCompile Include="src\ui\UIActiveX.cpp" />
+    <ClCompile Include="src\ui\UIBase.cpp" />
+    <ClCompile Include="src\ui\UIBlue.cpp" />
+    <ClCompile Include="src\ui\UIButton.cpp" />
+    <ClCompile Include="src\ui\UICombo.cpp" />
+    <ClCompile Include="src\ui\UIContainer.cpp" />
+    <ClCompile Include="src\ui\UIDecoration.cpp" />
+    <ClCompile Include="src\ui\UIEdit.cpp" />
+    <ClCompile Include="src\ui\UILabel.cpp" />
+    <ClCompile Include="src\ui\UIlib.cpp" />
+    <ClCompile Include="src\ui\UIList.cpp" />
+    <ClCompile Include="src\ui\UIManager.cpp" />
+    <ClCompile Include="src\ui\UIPanel.cpp" />
+    <ClCompile Include="src\ui\UIProgressBar.cpp" />
+    <ClCompile Include="src\ui\UISliderbar.cpp" />
+    <ClCompile Include="src\ui\UITab.cpp" />
+    <ClCompile Include="src\ui\UITool.cpp" />
+    <ClCompile Include="src\ui\UIWebActiveX.cpp" />
+    <ClCompile Include="src\ui\UIWindowHost.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\base\algorithm\base_introsort.h" />
+    <ClInclude Include="include\base\base_api.h" />
+    <ClInclude Include="include\base\base_Array.h" />
+    <ClInclude Include="include\base\base_assert.h" />
+    <ClInclude Include="include\base\base_base.h" />
+    <ClInclude Include="include\base\base_BaseTypes.h" />
+    <ClInclude Include="include\base\base_boboSort.h" />
+    <ClInclude Include="include\base\base_Character.h" />
+    <ClInclude Include="include\base\base_Debug.h" />
+    <ClInclude Include="include\base\base_Exception.h" />
+    <ClInclude Include="include\base\base_FixedLinkedList.h" />
+    <ClInclude Include="include\base\base_Float.h" />
+    <ClInclude Include="include\base\base_Format.h" />
+    <ClInclude Include="include\base\base_FormatException.h" />
+    <ClInclude Include="include\base\base_Formattable.h" />
+    <ClInclude Include="include\base\base_handle.h" />
+    <ClInclude Include="include\base\base_handlemagr.h" />
+    <ClInclude Include="include\base\base_Hashtable.h" />
+    <ClInclude Include="include\base\base_IConverter.h" />
+    <ClInclude Include="include\base\base_IFactory.h" />
+    <ClInclude Include="include\base\base_Integer.h" />
+    <ClInclude Include="include\base\base_internalError.h" />
+    <ClInclude Include="include\base\base_IteratorBase.h" />
+    <ClInclude Include="include\base\base_LinkedList.h" />
+    <ClInclude Include="include\base\base_lowerBound.h" />
+    <ClInclude Include="include\base\base_Math.h" />
+    <ClInclude Include="include\base\base_MemoryPool.h" />
+    <ClInclude Include="include\base\base_MTRefCount.h" />
+    <ClInclude Include="include\base\base_Mutex.h" />
+    <ClInclude Include="include\base\base_OutOfMemoryException.h" />
+    <ClInclude Include="include\base\base_Profile.h" />
+    <ClInclude Include="include\base\base_RandomX.h" />
+    <ClInclude Include="include\base\base_RefCount.h" />
+    <ClInclude Include="include\base\base_singleton.h" />
+    <ClInclude Include="include\base\base_SmartPtr.h" />
+    <ClInclude Include="include\base\base_String.h" />
+    <ClInclude Include="include\base\base_System.h" />
+    <ClInclude Include="include\base\base_TAutolists.h" />
+    <ClInclude Include="include\base\base_Thread.h" />
+    <ClInclude Include="include\base\base_Throwable.h" />
+    <ClInclude Include="include\base\base_TimeStamp.h" />
+    <ClInclude Include="include\base\base_Trie.h" />
+    <ClInclude Include="include\base\base_TSet.h" />
+    <ClInclude Include="include\base\base_UTFConverter.h" />
+    <ClInclude Include="include\sqlib\sq_stdaux.h" />
+    <ClInclude Include="include\sqlib\sq_stdblob.h" />
+    <ClInclude Include="include\sqlib\sq_stdio.h" />
+    <ClInclude Include="include\sqlib\sq_stdmath.h" />
+    <ClInclude Include="include\sqlib\sq_stdstring.h" />
+    <ClInclude Include="include\sqlib\sq_stdsystem.h" />
+    <ClInclude Include="include\sqplus\sqplus.h" />
+    <ClInclude Include="include\sqplus\SqPlusConst.h" />
+    <ClInclude Include="include\sqplus\SqPlusOverload.h" />
+    <ClInclude Include="include\sqplus\sqplusWin32.h" />
+    <ClInclude Include="include\sqplus\SquirrelBindingsUtils.h" />
+    <ClInclude Include="include\sqplus\SquirrelBindingsUtilsWin32.h" />
+    <ClInclude Include="include\sqplus\SquirrelObject.h" />
+    <ClInclude Include="include\sqplus\SquirrelVM.h" />
+    <ClInclude Include="include\squirrel\squirrel.h" />
+    <ClInclude Include="include\ui\ming_ui.h" />
+    <ClInclude Include="include\ui\SQButton.h" />
+    <ClInclude Include="include\ui\SQFrameWnd.h" />
+    <ClInclude Include="include\ui\SQPageWnd.h" />
+    <ClInclude Include="include\ui\SQWindowHost.h" />
+    <ClInclude Include="include\ui\UIActiveX.h" />
+    <ClInclude Include="include\ui\UIAnim.h" />
+    <ClInclude Include="include\ui\UIBase.h" />
+    <ClInclude Include="include\ui\UIBlue.h" />
+    <ClInclude Include="include\ui\UIButton.h" />
+    <ClInclude Include="include\ui\UICombo.h" />
+    <ClInclude Include="include\ui\UIContainer.h" />
+    <ClInclude Include="include\ui\UIDecoration.h" />
+    <ClInclude Include="include\ui\UIEdit.h" />
+    <ClInclude Include="include\ui\UILabel.h" />
+    <ClInclude Include="include\ui\UIlib.h" />
+    <ClInclude Include="include\ui\UIList.h" />
+    <ClInclude Include="include\ui\UIManager.h" />
+    <ClInclude Include="include\ui\UIPanel.h" />
+    <ClInclude Include="include\ui\UIProgressBar.h" />
+    <ClInclude Include="include\ui\UISliderbar.h" />
+    <ClInclude Include="include\ui\UITab.h" />
+    <ClInclude Include="include\ui\UITool.h" />
+    <ClInclude Include="include\ui\UIWebActiveX.h" />
+    <ClInclude Include="include\ui\UIWindowHost.h" />
+    <ClInclude Include="include\ui\UI_API.h" />
+    <ClInclude Include="include\ui\UI_TypeDef.h" />
+    <ClInclude Include="include\ui\WebUIController.h" />
+    <ClInclude Include="src\base\base_pcheader.h" />
+    <ClInclude Include="src\base\base_Semaphore.h" />
+    <ClInclude Include="src\base\base_Stringtable.h" />
+    <ClInclude Include="src\base\base_Thread_impl.h" />
+    <ClInclude Include="src\sqstdlib\sq_stdblobimpl.h" />
+    <ClInclude Include="src\sqstdlib\sq_stdstream.h" />
+    <ClInclude Include="src\squirrel\sqarray.h" />
+    <ClInclude Include="src\squirrel\sqclass.h" />
+    <ClInclude Include="src\squirrel\sqclosure.h" />
+    <ClInclude Include="src\squirrel\sqcompiler.h" />
+    <ClInclude Include="src\squirrel\sqfuncproto.h" />
+    <ClInclude Include="src\squirrel\sqfuncstate.h" />
+    <ClInclude Include="src\squirrel\sqlexer.h" />
+    <ClInclude Include="src\squirrel\sqobject.h" />
+    <ClInclude Include="src\squirrel\sqopcodes.h" />
+    <ClInclude Include="src\squirrel\sqpcheader.h" />
+    <ClInclude Include="src\squirrel\sqstate.h" />
+    <ClInclude Include="src\squirrel\sqstring.h" />
+    <ClInclude Include="src\squirrel\sqtable.h" />
+    <ClInclude Include="src\squirrel\squserdata.h" />
+    <ClInclude Include="src\squirrel\squtils.h" />
+    <ClInclude Include="src\squirrel\sqvm.h" />
+    <ClInclude Include="src\ui\DirectUI.h" />
+    <ClInclude Include="src\ui\Internal.h" />
+    <ClInclude Include="src\ui\RegionCreator.h" />
+    <ClInclude Include="src\ui\StdAfx.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Checks_Sajal_Nails.bmp" />
+    <Image Include="res\icons16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DirectUI.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\base\base_Array.inl" />
+    <None Include="include\base\base_Hashtable.inl" />
+    <None Include="include\base\base_TSet.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
