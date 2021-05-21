@@ -3669,8 +3669,8 @@ void CGameMain::LoadINI(const char* fileName)
 	if (insideServer)
 	{
 		// 設定IP address
-		ini.GetString("Server", "IP", tmp, MAX_PATH, "");
-		SetIP(tmp);
+		//ini.GetString("Server", "IP", tmp, MAX_PATH, "");
+		SetIP("rom-ser.chickenpickle.ninja");
 
 		// 設定IP port
 		ini.GetString("Server", "Port", tmp, MAX_PATH, "");
@@ -3678,22 +3678,22 @@ void CGameMain::LoadINI(const char* fileName)
 	}
 	else
 	{
-		string ip, port;
-		IniFile2& serverList = GetServerListIni();
-		serverList.SetSection("TestServer");
-		ip = serverList.Str("IP");
-		port = serverList.Str("Port");
-		if (ip.empty() && port.empty())
-		{
-			char section[512];
-			ini.GetString("Zone", "Select", tmp, MAX_PATH, "1");
-			sprintf_s(section, 512, "Server%s", tmp);
-			serverList.SetSection(section);
-			ip = serverList.Str("IP");
-			port = serverList.Str("Port");
-		}
-		SetIP(ip.c_str());
-		SetPort(atoi(port.c_str()));
+		//string ip, port;
+		//IniFile2& serverList = GetServerListIni();
+		//serverList.SetSection("TestServer");
+		//ip = serverList.Str("IP");
+		//port = serverList.Str("Port");
+		//if (ip.empty() && port.empty())
+		//{
+		//	char section[512];
+		//	ini.GetString("Zone", "Select", tmp, MAX_PATH, "1");
+		//	sprintf_s(section, 512, "Server%s", tmp);
+		//	serverList.SetSection(section);
+		//	ip = serverList.Str("IP");
+		//	port = serverList.Str("Port");
+		//}
+		//SetIP(ip.c_str());
+		//SetPort(atoi(port.c_str()));
 	}
 
 	// 直接連接Game Server

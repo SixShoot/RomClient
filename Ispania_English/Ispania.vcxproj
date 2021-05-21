@@ -14,7 +14,7 @@
     <ProjectGuid>{6DB8AB2D-783E-421C-A6B2-739A286C326E}</ProjectGuid>
     <RootNamespace>Ispania</RootNamespace>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.20226.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <ProjectName>Client</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
